@@ -11,17 +11,20 @@ export default function Home() {
       <FadeIn.Item>
         <div className="flex justify-between">
           <div>
-            <h1>Sylph</h1>
-            <h2>Next.js Portfolio Starter</h2>
+            <h1>brijr/notes</h1>
+            <h2>
+              Thoughts by <a href="https://bridger.to">Bridger Tower</a>.
+            </h2>
           </div>
         </div>
       </FadeIn.Item>
       <Spacer />
       <FadeIn.Item>
         <p>
-          Sylph is a Next.js Portfolio Starter that you can use to create your own portfolio website. It is designed to be minimal, lightweight, and fast. It is
-          also highly customizable, so you can easily make it your own. Sylph is perfect for developers, designers, and other creatives who want to showcase
-          their work. To start using Sylph, you can follow the guides below.
+          I'm a designer and developer specializing in creating intuitive,
+          high-performance software and websites that merge visual excellence
+          with practical functionality. I am passionate about human computer
+          interaction, usability, and aesthetics in software and technology.
         </p>
       </FadeIn.Item>
       <FadeIn.Item>
