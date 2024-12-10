@@ -6,13 +6,13 @@ import { Providers } from "@/components/providers";
 import { OpenGraph } from "@/lib/og";
 
 import clsx from "clsx";
-import { Inter } from "next/font/google";
+import { Inter as Font } from "next/font/google";
 
 export const metadata: Metadata = {
   ...OpenGraph,
 };
 
-const inter = Inter({
+const font = Font({
   subsets: ["latin"],
   display: "swap",
 });
@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={clsx(inter.className)} suppressHydrationWarning>
+    <html lang="en" className={clsx(font.className)} suppressHydrationWarning>
       <body>
         <Providers>
           <main className="mx-auto max-w-screen-sm overflow-x-hidden px-6 py-24 md:overflow-x-visible ">
